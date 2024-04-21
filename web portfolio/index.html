@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Prakash A portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/700780201f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars"onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Civil Engineer</p>
+                    <h1>Hi,I'm<span> Prakash A</span>  <br>From Chennai</h1>
+                </div>
+
+            </div>
+
+        </div>
+        <!--------------about-------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Prakash A, a civil engineering student, is passionate about 3D modeling, blending technical expertise with artistic expression for innovative structural design solutions. With a keen eye for detail, he thrives in collaborative environments, constantly expanding his skills. Beyond academia, loves explores new software and techniques, aspiring to contribute to sustainable infrastructure solutions through his 3D modeling prowess.
+                        </p>
+                        <div class="tab-titles">
+                            <p Class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p Class="tab-links" onclick="opentab('internships')">Internships</p>
+                            <p Class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Autocad</span><br>Floor Plans</li>
+                                <li><span>Revit</span><br>3-D Modelling</li>
+                                <li><span>Stadd Pro</span><br>Structural Analysis</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="internships">
+                            <ul>
+                                <li><span>Kumar & Kumar Construction</span><br>August 2023-September 2023</li>
+                                
+                                
+                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Higher Secondary(2019)</span><br>90.6%</li>
+                                <li><span>Senior Secondary(2019-2021)</span><br>89.4%</li>
+                                <li><span>B.Tech Civil Engineering(2021-2025)</span><br>CGPA-9.39</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-------------services--------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-building"></i>
+                        <h2>Structural Design</h2>
+                        <p>Designing and analyzing structures such as buildings, bridges, dams, 
+                            and roads to ensure they are safe and durable</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-unity"></i>
+                        <h2>Building Information Modeling (BIM) </h2>
+                        <p>Using Revit for comprehensive BIM modeling, incorporating architectural, structural,
+                             and MEP (mechanical, electrical, plumbing) systems into a single, coordinated model</p>
+                        <a href="#">Learn more</a>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-calculator"></i>
+                        <h2>Beam Design Calculator </h2>
+                        <p> Python script I developed for automated structural design,
+                             capable of producing detailed CAD drawings for reinforced concrete beams with precision 
+                             and adherence to IS:456:2000.</p>
+                        <a href="https://colab.research.google.com/drive/1bZHNGxC01Hw-d9zXtz1k_t4WDrNgaqYA?usp=sharing">Learn more</a>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--------portfolio----->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work4.png">
+                        <div class="layer">
+                            <h3>Structural Symphony: My STAAD Pro-Designed Marvel</h3>
+                            <p>
+                                My meticulously crafted building design, created using STAAD Pro,
+                                 seamlessly blends form and function. The intricate framework ensures stability while
+                                  maintaining aesthetic appeal. Explore modern architecture through my vision
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.jpg">
+                        <div class="layer">
+                            <h3>double Storey Buliding</h3>
+                            <p>
+                                A single-storey villa is a type of residential building that consists of only one level or floor. 
+                                It typically offers all the necessary living spaces on a single floor, which can include bedrooms, bathrooms, a kitchen, living room,
+                                 dining room, and sometimes additional spaces like a study or utility room.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work3.jpg">
+                        <div class="layer">
+                            <h3>Bedroom view</h3>
+                            <p>
+                                A single-storey villa is a type of residential building that consists of only one level or floor. 
+                                It typically offers all the necessary living spaces on a single floor, which can include bedrooms, bathrooms, a kitchen, living room,
+                                 dining room, and sometimes additional spaces like a study or utility room.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/prakash-a-915326251/" class="btn" target="_blank">See more</a>
+
+
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>prakash.athmanathan@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91 8072907120</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/prakash.a.5621149/"><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/prak.as.h/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/prakash-a-915326251/"><i class="fab fa-linkedin"></i></a>
+                            
+                        </div>
+                        <a href="Prakash_resume.pdf" download class="btn btn2" >Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name=Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder=" your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &copy; Prakash. Made with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <span class="home-imgHover"></span>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxcomSfdRzRwZMawxGvGYrYq2WTBRd8Vyh4EN6UrZgmVWExk8Or244cb7F8LTeUcYho0Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg =document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    
+    </body>
+    </html>
